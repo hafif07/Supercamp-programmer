@@ -3,23 +3,23 @@
     height: 100vh;
     width: 100%;
   }
-  .card-body{
+  .card-body {
     width: 700px;
   }
-  h5{
-    font-size:80px ;
+  h5 {
+    font-size: 80px;
   }
-  p{
+  p {
     font-size: 30px;
   }
 }
-.card-title-caraousel{
-  position:absolute;
-  z-index:9;
+.card-title-caraousel {
+  position: absolute;
+  z-index: 9;
   background: none;
-  color:white;
-  border:none;
-  margin-top:190px;
+  color: white;
+  border: none;
+  margin-top: 190px;
   margin-left: 10%;
 }
 
@@ -31,20 +31,25 @@
   width: 100%;
   // position:absolute;
 }
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important ;
+}
 @media only screen and(max-width:800px) {
   .carousel-img {
     img {
       width: auto;
     }
-    .card-body{
+    .card-body {
       width: 200px;
     }
-    h5{
-      font-size:20px ;
+    h5 {
+      font-size: 20px;
     }
-    p{
+    p {
       font-size: 15px;
     }
   }
 }
-
