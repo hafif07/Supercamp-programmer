@@ -32,7 +32,31 @@ const Navbar = props => {
           </NavLink>
           <NavLink to="/pendaftaran" activeClassName="active">
             <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
-              Pendaftaran
+              About
+            </p>
+          </NavLink>
+          <NavLink to="/pendaftaran" activeClassName="active">
+            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+              Program
+            </p>
+          </NavLink>
+          <NavLink to="/pendaftaran" activeClassName="active">
+            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+              Instructor
+            </p>
+          </NavLink>
+          <NavLink to="/pendaftaran" activeClassName="active">
+            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+              Portofolio
+            </p>
+          </NavLink>
+          <NavLink to="/pendaftaran" activeClassName="active">
+            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+              Testimoni</p>
+          </NavLink>
+          <NavLink to="/pendaftaran" activeClassName="active">
+            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+              Contact
             </p>
           </NavLink>
         </div>
