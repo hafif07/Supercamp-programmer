@@ -4,7 +4,7 @@ import "./Content31.scss";
 
 const Content31 = () => {
   return (
-    <div className="row mt-5">
+    <div className="row c-3">
       <div className="col-md-12 mt-5 mb-5 text-center">
         <h1>Program</h1>
       </div>

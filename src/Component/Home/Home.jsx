@@ -12,6 +12,7 @@ import Copyright from "./Footer/Copyright";
 import Content31 from "./Content3(revisi)/Content31";
 import InstructorJS from "./Instructor/InstructorJS";
 import Portofolio from "./Portofolio/Portofolio";
+import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer";
 
 
 const Home = () => {
@@ -29,14 +30,14 @@ const Home = () => {
           <div className="col-md-12  founder">
             <Founder />
           </div>
-          <div className="col-md-12 baris3">
+          <div className="col-md-12 baris3 mt-5">
            <Content31/>
           </div>
           <div className="col-md-12 instructor">
             <InstructorJS/>
           </div>
           <div className="col-md-12">
-            <Portofolio/>
+            <PortofolioContainer/>
           </div>
           <div className="col-md-12 footer">
             <Footer />

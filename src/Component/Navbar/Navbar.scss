@@ -20,6 +20,10 @@
     }
 }
 
+.fixed-top{
+    z-index:800 !important;
+}
+
 .active {
 border-bottom: 5px solid rgba(0,0,0,0.5);
 border-radius: 50px;
