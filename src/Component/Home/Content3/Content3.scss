@@ -1,0 +1,38 @@
+.card-text-title{
+    width: 500px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:80px;
+    background: none;
+    border: none;
+}
+
+.card-rincian{
+    .card{
+        background: none;
+    }
+    i{
+        font-size: 70px;
+        text-align: center;
+        margin-top:15px ;
+    }
+}
+
+.card-fasilitas{
+    .card{
+        background: none;
+        text-align: center;
+     
+    }
+    i{
+        font-size: 50px;
+        text-align: center;
+        margin-top:15px ;
+    }
+}
+@media only screen and(max-width:800px){
+    .card-text-title{
+        width: 300px;
+    }
+}

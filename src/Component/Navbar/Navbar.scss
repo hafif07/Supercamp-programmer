@@ -1,0 +1,27 @@
+.header{
+
+    p{
+        color:#003380;
+    }
+
+}
+
+#transparent{
+    background: transparent;
+}
+
+#color{
+    background: black;
+}
+
+.navbar-nav{
+    a{
+        text-decoration: none;
+    }
+}
+
+.active {
+border-bottom: 5px solid rgba(0,0,0,0.5);
+border-radius: 50px;
+height: 40px;
+}

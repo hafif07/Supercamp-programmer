@@ -1,0 +1,45 @@
+.bg-inst-js {
+  background: #1c3864;
+  height: 800px;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 120px;
+  }
+}
+
+.bg-inst-native {
+  background: #1c3864;
+  height: 800px;
+  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+//   img {
+//     width: 500px;
+//     height: 500px;
+//     border-radius: 50%;
+//     margin-top: 120px;
+
+//   }
+.img-risqan{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 120px;
+    background: red;
+}
+}
+
+.card-bagas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  h3 {
+    font-size: 30px;
+  }
+}
