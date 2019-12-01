@@ -21,25 +21,25 @@ const Home = () => {
       <Caraousel />
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-12 mt-5 baris1 ">
+          <div id="about" className="col-md-12 mt-5 baris1 ">
             <Content1 />
           </div>
-          <div className="col-md-12 mt-5 baris2">
+          <div  className="col-md-12 mt-5 baris2">
             <Content2 />
           </div>
-          <div className="col-md-12  founder">
+          <div  className="col-md-12  founder">
             <Founder />
           </div>
-          <div className="col-md-12 baris3 mt-5">
+          <div id="program" className="col-md-12 baris3">
            <Content31/>
           </div>
-          <div className="col-md-12 instructor">
+          <div id="instructor" className="col-md-12 instructor">
             <InstructorJS/>
           </div>
-          <div className="col-md-12">
+          <div id="portofolio" className="col-md-12">
             <PortofolioContainer/>
           </div>
-          <div className="col-md-12 footer">
+          <div id="contact" className="col-md-12 footer">
             <Footer />
           </div>
           <div className="col-md-12 copyright">

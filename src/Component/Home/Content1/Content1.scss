@@ -1,3 +1,6 @@
+.box-our{
+margin-top:100px ;
+}
 .box-content1 {
   .card-box-content1 {
     left: 50%;
@@ -23,7 +26,7 @@
   color: #1c3864;
 }
 
-@media only screen and(max-width:10240px) {
+@media only screen and(max-width:1024px) {
   .box-content1 {
     .card-box-content1 {
       left: 50%;

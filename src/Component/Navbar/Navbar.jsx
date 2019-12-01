@@ -30,35 +30,35 @@ const Navbar = props => {
               Home
             </p>
           </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#about">
               About
-            </p>
-          </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+            </a>
+          {/* </NavLink> */}
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#program">
               Program
-            </p>
-          </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+            </a>
+          {/* </NavLink> */}
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#instructor">
               Instructor
-            </p>
-          </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+            </a>
+          {/* </NavLink> */}
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#portofolio">
               Portofolio
-            </p>
-          </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
-              Testimoni</p>
-          </NavLink>
-          <NavLink to="/pendaftaran" activeClassName="active">
-            <p style={{color:`${props.font}`}} className="nav-item nav-link " href="#">
+            </a>
+          {/* </NavLink> */}
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#testimoni">
+              Testimoni</a>
+          {/* </NavLink> */}
+          {/* <NavLink to="/pendaftaran" activeClassName="active"> */}
+            <a style={{color:`${props.font}`}} className="nav-item nav-link " href="#contact">
               Contact
-            </p>
-          </NavLink>
+            </a>
+          {/* </NavLink> */}
         </div>
       </div>
     </nav>
