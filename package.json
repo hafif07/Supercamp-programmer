@@ -1,6 +1,7 @@
 {
   "name": "superchamp",
   "version": "0.1.0",
+  "homepage": "https://supercampprogrammer.com",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
