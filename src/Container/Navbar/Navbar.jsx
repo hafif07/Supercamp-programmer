@@ -20,7 +20,7 @@ class NavbarContainer extends React.Component {
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 6000) {
+    if (window.scrollY > 6800) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
