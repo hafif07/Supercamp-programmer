@@ -37,8 +37,10 @@ const Content31 = () => {
           <div className="card-body ">
             <h5 className="card-title">Program 3 Hari</h5>
             <p className="card-text">
-              Program singkat yang mencangkup satu materi dalam suatu framework
-              dari teknologi yang digunakan.
+              Program ini ditujukan bagi kamu yang sudah memahami bahasa
+              pemrograman dasar dan framework . Kamu akan diberikan pelatihan
+              untuk dapat menggunakan fitur-fitur atau third part library
+              tertentu dari suatu framework .
             </p>
           </div>
         </div>
