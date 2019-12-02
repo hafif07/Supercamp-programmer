@@ -42,6 +42,7 @@ const Content31 = () => {
               untuk dapat menggunakan fitur-fitur atau third part library
               tertentu dari suatu framework .
             </p>
+            <button className="btn btn-success">Availbale</button>
           </div>
         </div>
         <div
@@ -52,10 +53,12 @@ const Content31 = () => {
           <div className="card-body">
             <h5 className="card-title">Program 1 Bulan</h5>
             <p className="card-text">
-              Program ini ditujukan untuk para programmer yang sudah mengerti
-              fundamental bahasa pemrogramman yang digunakan lalu masuk ke tahap
-              menggunakan framework
+              Program ini ditujukan bagi kamu yang sudah memahami bahasa
+              pemrograman dasar namun belum dapat menggunakan framework . Kamu
+              akan diberikan pelatihan untuk dapat menggunakan framework dari
+              awal hingga dapat membuat aplikasi web atau mobile .
             </p>
+            <button className="btn btn-danger">Availbale</button>
           </div>
         </div>
         <div
@@ -66,11 +69,13 @@ const Content31 = () => {
           <div className="card-body">
             <h5 className="card-title">Program 3 bulan</h5>
             <p className="card-text">
-              Program ini ditujukan untuk pemula yang baru terjun ke dalam dunia
-              pemrogramman , dimana nanti akan kami didik dari 0 hingga mampu
-              membuat aplikasi serta langsung penyaluran kerja ke perusahaan
-              rekanan kami
+              Program ini ditujukan bagi kamu yang baru terjun ke dalam dunia
+              pemrograman . Kamu akan diberikan pelatihan untuk dapat memahami
+              bahasa pemrograman dasar dan dapat menggunakan framework dari awal
+              hingga dapat membuat aplikasi web atau mobile . Setelah lulus kamu
+              akan langsung disalurkan kerja ke perusahaan rekanan kami .
             </p>
+            <button className="btn btn-danger">Availbale</button>
           </div>
         </div>
       </div>
