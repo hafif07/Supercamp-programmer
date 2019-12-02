@@ -17,7 +17,7 @@ import Testimoni from "./Testimoni/Testimoni";
 
 const Home = () => {
   return (
-    <div className="box">
+    <div className="box" id="home">
       <Caraousel />
       <div className="container-fluid">
         <div className="row">
