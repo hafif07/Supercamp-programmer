@@ -20,7 +20,7 @@ const Navbar = props => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <i className="fa fa-list" ></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="mr-auto"></div>

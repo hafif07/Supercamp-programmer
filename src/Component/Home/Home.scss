@@ -44,7 +44,7 @@ body{
 
 .portofolio{
   
-  height: 210vh;
+  height: 240vh;
 }
 .footer {
   background:rgb(28, 56, 100);
@@ -53,8 +53,10 @@ body{
 }
 
 .testimoni{
-  height: 180vh;
-  background:#EDEDED;
+  height: 230vh;
+  background-color:#EDEDED;
+
+
 }
 
 .copyright{
@@ -81,7 +83,12 @@ body{
     
   }
 
+
   .instructor{
     height: 1200px;
+  }
+  .testimoni{
+    height: 370vh;
+    background:#EDEDED;
   }
 }

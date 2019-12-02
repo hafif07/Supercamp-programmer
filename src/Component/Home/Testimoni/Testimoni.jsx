@@ -129,7 +129,6 @@ const Testimoni = () => {
                   Sebelum ikut pelatihan disini, saya tidak memiliki keahlian
                   programming, maka saya berkeinginan untuk belajar dan disini
                   tidak perlu waktu lama saya sudah dapat menguasai programming
-                  terutama bahasa pemograman PHP
                 </p>
                 <div className="text-right">
                   <i className="fa fa-quote-right "></i>
