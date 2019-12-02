@@ -9,7 +9,7 @@ const Portofolio = props => {
         <h1>Portofolio</h1>
       </div>
       <div className="col-md-12 mt-5">
-        <div className="card-columns">
+        <div className="card-columns card-box-porto">
           {Data.Data.map(img => (
             <div key={img.id} className="card porto-card">
               <img

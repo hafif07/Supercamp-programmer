@@ -1,6 +1,6 @@
 import React from "react";
 import "./Content2.scss";
-import Logo from "../../../Assets/logo3.png";
+import Logo from "../../../Assets/logo4.png";
 
 const Content2 = () => {
   return (

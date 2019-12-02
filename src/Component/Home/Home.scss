@@ -88,7 +88,64 @@ body{
     height: 1200px;
   }
   .testimoni{
-    height: 370vh;
+    height: 450vh;
     background:#EDEDED;
   }
+  
+}
+
+@media only screen and(max-width:1024px){
+  .portofolio{
+    background: #F5F5F5;
+    height: 100vh;
+  }
+
+}
+
+@media only screen and(max-width:400px){
+  .testimoni{
+    height: 460vh;
+  }
+
+  .portofolio{
+  
+    height: 400vh;
+  }
+  .footer{
+    height: 120vh;
+  }
+}
+
+@media only screen and(max-width:320px){
+ .portofolio{
+   height: 2300px;
+ }
+ .testimoni{
+   height: 1000px;
+  
+ }
+ .footer{
+  height: 120vh;
+  position: relative;
+  bottom: -2000px;
+  padding: 0;
+  left: 10px;
+
+}
+.copyright{
+  position: relative;
+  bottom: -2000px;
+  left: 10px;
+}
+
+.baris2{
+  position: relative;
+  left: 10px;
+}
+
+.box{
+  position: relative;
+  left: 0px;
+  width: 100%;
+}
 }

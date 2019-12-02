@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="footer-row d-flex justify-content-around">
         <div className="row text-white  ">
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center box-footer">
             <div className="card" style={{ width: "18rem" }}>
               <i className="fas fa-map-marked-alt icon-f"></i>
               <div className="card-body">
@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center box-footer">
             <div className="card" style={{ width: "18rem" }}>
               <i className="fas fa-mobile-alt icon-f"></i>
               <div className="card-body">
@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center box-footer">
             <div className="card" style={{ width: "18rem" }}>
               <i className="fas fa-envelope-open-text icon-f"></i>
               <div className="card-body">
@@ -44,31 +44,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-6 mb-5">
-            <h1 className="card-title">CONTACT</h1>
-            <div className="mt-5">
-              <p>
-                <i className="fa fa-map-marker"></i>
-                Gegunung, Tirtohargo, Kec. Kretek, Bantul, Daerah Istimewa
-                Yogyakarta 55772
-              </p>
-              <p>
-                {" "}
-                <i className="fa fa-phone-alt"></i>+6287787331091{" "}
-              </p>
-
-              <p className="card-text">
-                {" "}
-                <i className="fas fa-envelope"></i>pondokprogrammer@gmail.com
-              </p>
-            </div>
-          </div> */}
-          {/* <div className="col-md-6 mb-5">
-            <h1 className="card-title">TENTANG</h1>
-            <div className="mt-5">
-              <p>ok</p>
-            </div>
-          </div> */}
         </div>
       </div>
     </>
