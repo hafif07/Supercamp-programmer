@@ -4,9 +4,9 @@ import "./Content31.scss";
 
 const Content31 = () => {
   return (
-    <div className="row c-3">
-      <div className="col-md-12 mt-5 mb-5 text-center">
-        <h1>Program</h1>
+    <div className="row ">
+      <div className="col-md-12 mt-5 mb-5 text-center c-3">
+        <h1 className="h1-program">Program</h1>
       </div>
       <div className="col-md-12 d-flex justify-content-around  flex-wrap">
         <div

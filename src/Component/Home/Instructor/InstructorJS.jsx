@@ -4,8 +4,8 @@ import Risqan from "../../../Assets/risqan.jpg";
 
 const InstructorJS = () => {
   return (
-    <div className="row mt-5 text-center">
-      <div className="col-md-12 mb-5">
+    <div className="row mt-5 text-center ins">
+      <div className="col-md-12 inst-txt">
         <h1>Instructor</h1>
       </div>
 

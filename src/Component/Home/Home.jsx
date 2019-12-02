@@ -9,11 +9,11 @@ import Content2 from "./Content2/Content2";
 // import Content4 from "./Content4/Content4";
 import Footer from "./Footer/Footer";
 import Copyright from "./Footer/Copyright";
-import Content31 from "./Content3(revisi)/Content31";
-import InstructorJS from "./Instructor/InstructorJS";
-import Portofolio from "./Portofolio/Portofolio";
-import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer";
 
+import InstructorJS from "./Instructor/InstructorJS";
+import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer";
+import Content31 from "./Program/Content31";
+import Testimoni from "./Testimoni/Testimoni";
 
 const Home = () => {
   return (
@@ -24,20 +24,23 @@ const Home = () => {
           <div id="about" className="col-md-12 mt-5 baris1 ">
             <Content1 />
           </div>
-          <div  className="col-md-12 mt-5 baris2">
+          <div className="col-md-12 mt-5 baris2">
             <Content2 />
           </div>
-          <div  className="col-md-12  founder">
+          <div className="col-md-12  founder">
             <Founder />
           </div>
           <div id="program" className="col-md-12 baris3">
-           <Content31/>
+            <Content31 />
           </div>
           <div id="instructor" className="col-md-12 instructor">
-            <InstructorJS/>
+            <InstructorJS />
           </div>
-          <div id="portofolio" className="col-md-12">
-            <PortofolioContainer/>
+          <div id="portofolio" className="col-md-12 portofolio">
+            <PortofolioContainer />
+          </div>
+          <div id="testimoni" className="col-md-12 testimoni mt-5">
+            <Testimoni />
           </div>
           <div id="contact" className="col-md-12 footer">
             <Footer />

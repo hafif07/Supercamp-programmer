@@ -5,9 +5,9 @@ import Foto2 from "../../../Assets/wandi.jpg";
 
 const Founder = () => {
   return (
-    <div className="row mt-5 mb-5 text-center">
+    <div className="row mt-5 mb-5 text-center box-founder">
       <div className="col-md-12 mb-5">
-        <h1>Founder dan Co-Founder </h1>
+        <h1 >Founder dan Co-Founder </h1>
       </div>
 
       <div className="col-md-12">
@@ -19,7 +19,7 @@ const Founder = () => {
             <div className="content-mutiara">
               <h5 className="text-center">
                 M.Hafif Al-Busyro<br></br>
-                <p className="title-ceo">React Native Instructor</p>
+                <p className="title-ceo">Founder</p>
               </h5>
 
               <p className="mt-5 text-center">

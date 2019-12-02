@@ -1,18 +1,11 @@
-import React from "react";
-// import web2 from "../../../Assets/portofolio/muslim-chat.jpg";
-// import web3 from "../../../Assets/portofolio/g-chat-lp.jpg";
-// import web4 from "../../../Assets/portofolio/osans-lp.png";
-// import web5 from "../../../Assets/portofolio/osans.jpg";
-// import web6 from "../../../Assets/portofolio/osans.png";
-// import web7 from "../../../Assets/portofolio/aiwah.png";
-// import web8 from "../../../Assets/portofolio/beta.png";
+import React from "react"
 import Data from "./Data.json";
 import "./Portofolio.scss";
 
 const Portofolio = props => {
   return (
-    <div className="row">
-      <div className="col-md-12 text-center">
+    <div className="row mt-5">
+      <div className="col-md-12 text-center txt-por">
         <h1>Portofolio</h1>
       </div>
       <div className="col-md-12 mt-5">

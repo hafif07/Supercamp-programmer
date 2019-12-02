@@ -1,3 +1,15 @@
+.ins {
+  h1 {
+    color: #474545;
+  }
+}
+
+.box-founder {
+  h1 {
+    color: #474545;
+  }
+}
+
 .imgBx {
   background: linear-gradient(
       to right,
@@ -6,14 +18,13 @@
     ),
     rgba(0, 0, 0, 0.5);
   opacity: 0.6;
-
 }
 
-.card-founder{
-    border: none;
-    background: none;
-    color: rgb(124, 120, 120);
-    margin-top: 120px;
+.card-founder {
+  border: none;
+  background: none;
+  color: rgb(124, 120, 120);
+  margin-top: 120px;
 }
 
 .box-1 {
@@ -39,7 +50,6 @@
   left: 0;
   width: 100%;
   height: 100%;
- 
 }
 .box-1:hover .imgBx img {
   opacity: 0;
@@ -70,16 +80,15 @@
   font-size: 15px;
 }
 
-
-@media only screen and(max-width:800px){
-  .title-founder-text{
+@media only screen and(max-width:800px) {
+  .title-founder-text {
     font-size: 20px;
   }
 
-  .bg-wandi{
+  .bg-wandi {
     margin-top: 20px;
   }
-  .row-founder-text{
-padding-bottom: 50px;
+  .row-founder-text {
+    padding-bottom: 50px;
   }
 }

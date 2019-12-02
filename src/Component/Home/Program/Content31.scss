@@ -1,6 +1,8 @@
 .card-content31-program {
   border: none;
   background: none;
+  margin-top:50px;
+
   i {
     font-size: 100px;
     color: #1c3864;
@@ -12,11 +14,18 @@
     display: block;
     margin: 0 auto;
   }
-  p{
-      color: rgb(143, 140, 140);
+  p {
+    color: rgb(143, 140, 140);
   }
 }
 
-.c-3{
-  margin-top: 150px;
+.c-3 {
+  margin-top: 100px;
+  padding-top:50px;
+  .h1-program{
+    margin-top:50px;
+  }
+  h1 {
+    color: #474545;
+  }
 }
