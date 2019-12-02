@@ -5,13 +5,13 @@ body{
 }
 
 .baris1{
-  height: 500px;
+  // height: 500px;
 }
 .baris2 {
   background: linear-gradient(to right, rgba(15, 15, 15, 0.5), rgba(0, 0, 0, 0.7)),
     url("https://www.lawgroup.com.au/wp-content/uploads/2019/02/Website-Design-Background-1.jpg");
-  height: 600px;
-  min-height: 500px;
+  // height: 600px;
+  // min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,13 +19,13 @@ body{
 }
 
 .founder{
-  height: 800px;
+  // height: 800px;
 
   
 }
 .baris3 {
   // background: url("../../Assets/pen.jpg");
-  height: 900px;
+  // height: 900px;
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -35,25 +35,25 @@ body{
 }
 
 .baris4 {
-  height: 500px;
+  // height: 500px;
   background-color: #ffffff;
 }
 .instructor{
-  height: 900px;
+  // height: 900px;
 }
 
 .portofolio{
   
-  height: 240vh;
+  // height: 240vh;
 }
 .footer {
   background:rgb(28, 56, 100);
-  height: 400px;
+  // height: 400px;
   background-size: cover;
 }
 
 .testimoni{
-  height: 230vh;
+  // height: 230vh;
   background-color:#EDEDED;
 
 
@@ -65,19 +65,19 @@ body{
 
 @media only screen and(max-width:800px) {
   .baris3 {
-    height: 1900px;
+    // height: 1900px;
   }
 
   .portofolio{
     background: #F5F5F5;
-    height: 350vh;
+    // height: 350vh;
   }
   .footer{
-    height: 100vh;
+    // height: 100vh;
   }
 
   .founder{
-    height: 1200px;
+    // height: 1200px;
     margin-bottom: 50px;
   
     
@@ -85,10 +85,10 @@ body{
 
 
   .instructor{
-    height: 1200px;
+    // height: 1200px;
   }
   .testimoni{
-    height: 450vh;
+    // height: 450vh;
     background:#EDEDED;
   }
   
@@ -97,35 +97,35 @@ body{
 @media only screen and(max-width:1024px){
   .portofolio{
     background: #F5F5F5;
-    height: 100vh;
+    // height: 100vh;
   }
 
 }
 
 @media only screen and(max-width:400px){
   .testimoni{
-    height: 460vh;
+    // height: 460vh;
   }
 
   .portofolio{
   
-    height: 400vh;
+    // height: 400vh;
   }
   .footer{
-    height: 120vh;
+    // height: 120vh;
   }
 }
 
 @media only screen and(max-width:320px){
  .portofolio{
-   height: 2300px;
+  //  height: 2300px;
  }
  .testimoni{
-   height: 1000px;
+  //  height: 1000px;
   
  }
  .footer{
-  height: 120vh;
+  // height: 120vh;
   position: relative;
   bottom: -2000px;
   padding: 0;

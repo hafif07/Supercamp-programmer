@@ -20,7 +20,7 @@ class NavbarContainer extends React.Component {
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 6800) {
+    if (window.scrollY > 6200) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -30,7 +30,7 @@ class NavbarContainer extends React.Component {
         contact: "#1b92de",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 5600) {
+    } else if (window.scrollY > 5350) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -40,7 +40,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 4300) {
+    } else if (window.scrollY > 4000) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -50,7 +50,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 4000) {
+    } else if (window.scrollY > 3350) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -60,17 +60,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 3420) {
-      this.setState({
-        about: "#1C3864",
-        home: "#1C3864",
-        instructor: "#1b92de",
-        portofolio: "#1C3864",
-        testimoni: "#1C3864",
-        contact: "#1C3864",
-        program: "#1C3864"
-      });
-    } else if (window.scrollY > 2550) {
+    } else if (window.scrollY > 2500) {
       this.setState({
         program: "#1b92de",
         home: "#1C3864",
@@ -80,7 +70,7 @@ class NavbarContainer extends React.Component {
         testimoni: "#1C3864",
         contact: "#1C3864"
       });
-    } else if (window.scrollY > 560) {
+    } else if (window.scrollY > 510) {
       this.setState({
         about: "#1b92de",
         home: "#1C3864",

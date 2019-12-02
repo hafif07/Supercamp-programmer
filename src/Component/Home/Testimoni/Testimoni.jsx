@@ -8,7 +8,7 @@ import Sidik from "../../../Assets/people/sidik.jpg";
 
 const Testimoni = () => {
   return (
-    <div className="row test">
+    <div className="row test mb-5">
       <div className="col-md-12  text-center">
         <h1>Testimonial</h1>
       </div>
@@ -22,7 +22,7 @@ const Testimoni = () => {
               alt="..."
             />
 
-            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+            <div className="card mx-auto d-block" >
               <div className="card-body mt-5">
                 <i className="fa fa-quote-left"></i>
                 <h5 className="card-title text-center">Amar Khoirudin</h5>
@@ -44,7 +44,7 @@ const Testimoni = () => {
               alt="..."
             />
 
-            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+            <div className="card mx-auto d-block" >
               <div className="card-body mt-5">
                 <i className="fa fa-quote-left"></i>
                 <h5 className="card-title text-center">Bae</h5>
@@ -72,7 +72,7 @@ const Testimoni = () => {
               alt="..."
             />
 
-            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+            <div className="card mx-auto d-block" >
               <div className="card-body mt-5">
                 <i className="fa fa-quote-left"></i>
                 <h5 className="card-title text-center">
@@ -98,7 +98,7 @@ const Testimoni = () => {
               alt="..."
             />
 
-            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+            <div className="card mx-auto d-block" >
               <div className="card-body mt-5">
                 <i className="fa fa-quote-left"></i>
                 <h5 className="card-title text-center">Muhammad Wahyudi</h5>
@@ -121,7 +121,7 @@ const Testimoni = () => {
               alt="..."
             />
 
-            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+            <div className="card mx-auto d-block" >
               <div className="card-body mt-5">
                 <i className="fa fa-quote-left"></i>
                 <h5 className="card-title text-center">Muhammad Sidik</h5>
