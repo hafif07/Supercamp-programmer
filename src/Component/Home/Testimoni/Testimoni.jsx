@@ -1,26 +1,144 @@
 import React from "react";
 import "./Testimoni.scss";
-import Amar from "../../../Assets/people/amar.png"
+import Amar from "../../../Assets/people/amar.png";
+import Bae from "../../../Assets/people/bae.jpg";
+import Roihan from "../../../Assets/people/roihan.jpg";
+import Wahyudi from "../../../Assets/people/wahyudi.jpg";
+import Sidik from "../../../Assets/people/sidik.jpg";
 
 const Testimoni = () => {
   return (
-    <div className="row">
-      <div className="col-md-12">
-        <div className="card" style={{ width: "18rem" }}>
-          <img style={{borderRadius:"50%"}} src={Amar} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
+    <div className="row test">
+      <div className="col-md-12  text-center">
+        <h1>Testimonial</h1>
+      </div>
+      <div className="col-md-12 card-img">
+        <div className="row">
+          <div className="col-md-6">
+            <img
+              style={{ borderRadius: "50%" }}
+              src={Amar}
+              className="mx-auto d-block"
+              alt="..."
+            />
+
+            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+              <div className="card-body mt-5">
+                <i className="fa fa-quote-left"></i>
+                <h5 className="card-title text-center">Amar Khoirudin</h5>
+                <p className="card-text text-center">
+                  Setelah Mengikuti Kurikulum yang ada disini akhirnya saya
+                  banyak yang saya ketahui tentang programmer
+                </p>
+                <div className="text-right">
+                  <i className="fa fa-quote-right "></i>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="col-md-6">
+            <img
+              style={{ borderRadius: "50%" }}
+              src={Bae}
+              className="mx-auto d-block"
+              alt="..."
+            />
+
+            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+              <div className="card-body mt-5">
+                <i className="fa fa-quote-left"></i>
+                <h5 className="card-title text-center">Bae</h5>
+                <p className="card-text text-center">
+                  ngoding itu tidak sesulit apa yang saya bayangkan.dengan
+                  arahan mentor dan teman-teman yang saling memotivasi,saya bisa
+                  sampai sejauh ini.saya sudah dapat mengerti apa itu pseudo
+                  coode,algoritma,serta logic dalam programming.
+                </p>
+                <div className="text-right">
+                  <i className="fa fa-quote-right "></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="col-md-12"></div>
+      <div className="col-md-12 card-img">
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              style={{ borderRadius: "50%" }}
+              src={Roihan}
+              className="mx-auto d-block"
+              alt="..."
+            />
+
+            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+              <div className="card-body mt-5">
+                <i className="fa fa-quote-left"></i>
+                <h5 className="card-title text-center">
+                  Roihan Mishbahul Anam
+                </h5>
+                <p className="card-text text-center">
+                  Alhamdulillah dengan mengikuti kurikulum yang ada di sini,
+                  saya bisa menjadi lebih berkembang dengan adanya mentor dan
+                  Alhamdulillah lingkungannya sudah islami dan banyak
+                  teman-teman yang sholeh in syaa Allah.
+                </p>
+                <div className="text-right">
+                  <i className="fa fa-quote-right "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <img
+              style={{ borderRadius: "50%" }}
+              src={Wahyudi}
+              className="mx-auto d-block"
+              alt="..."
+            />
+
+            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+              <div className="card-body mt-5">
+                <i className="fa fa-quote-left"></i>
+                <h5 className="card-title text-center">Muhammad Wahyudi</h5>
+                <p className="card-text text-center">
+                  Alhamdulillah selama disini saya mendapat banyak arahan ilmu
+                  programming dari mentor dan juga didukung oleh lingkungan yang
+                  nyaman.
+                </p>
+                <div className="text-right">
+                  <i className="fa fa-quote-right "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <img
+              style={{ borderRadius: "50%" }}
+              src={Sidik}
+              className="mx-auto d-block"
+              alt="..."
+            />
+
+            <div className="card mx-auto d-block" style={{ width: "20rem" }}>
+              <div className="card-body mt-5">
+                <i className="fa fa-quote-left"></i>
+                <h5 className="card-title text-center">Muhammad Sidik</h5>
+                <p className="card-text text-center">
+                  Sebelum ikut pelatihan disini, saya tidak memiliki keahlian
+                  programming, maka saya berkeinginan untuk belajar dan disini
+                  tidak perlu waktu lama saya sudah dapat menguasai programming
+                  terutama bahasa pemograman PHP
+                </p>
+                <div className="text-right">
+                  <i className="fa fa-quote-right "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,25 @@
+.test {
+  margin-top: 150px;
+}
+.card-img {
+  .card {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    height: 380px;
+    border-radius: 20px;
+    background: #1C3864;
+    color: white;
+  }
+
+  i{
+      color: white;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    z-index: 20;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+}
