@@ -20,7 +20,13 @@ class NavbarContainer extends React.Component {
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 6200) {
+    const about = document.getElementById("about")
+    const instructor = document.getElementById("instructor")
+    const portofolio = document.getElementById("portofolio")
+    const testimoni = document.getElementById("testimoni")
+    const contact = document.getElementById("contact")
+    const program = document.getElementById("program")
+    if (window.scrollY > contact.offsetTop - 450) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -30,7 +36,7 @@ class NavbarContainer extends React.Component {
         contact: "#1b92de",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 5350) {
+    } else if (window.scrollY > testimoni.offsetTop - 50) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -40,7 +46,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 4000) {
+    } else if (window.scrollY > portofolio.offsetTop - 50) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -50,7 +56,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 3350) {
+    } else if (window.scrollY > instructor.offsetTop - 50) {
       this.setState({
         about: "#1C3864",
         home: "#1C3864",
@@ -60,7 +66,7 @@ class NavbarContainer extends React.Component {
         contact: "#1C3864",
         program: "#1C3864"
       });
-    } else if (window.scrollY > 2500) {
+    } else if (window.scrollY > program.offsetTop - 50) {
       this.setState({
         program: "#1b92de",
         home: "#1C3864",
@@ -70,7 +76,7 @@ class NavbarContainer extends React.Component {
         testimoni: "#1C3864",
         contact: "#1C3864"
       });
-    } else if (window.scrollY > 510) {
+    } else if (window.scrollY > about.offsetTop - 50) {
       this.setState({
         about: "#1b92de",
         home: "#1C3864",

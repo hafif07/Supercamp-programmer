@@ -72,8 +72,7 @@ const Content31 = () => {
               Program ini ditujukan bagi kamu yang baru terjun ke dalam dunia
               pemrograman . Kamu akan diberikan pelatihan untuk dapat memahami
               bahasa pemrograman dasar dan dapat menggunakan framework dari awal
-              hingga dapat membuat aplikasi web atau mobile . Setelah lulus kamu
-              akan langsung disalurkan kerja ke perusahaan rekanan kami .
+              hingga dapat membuat aplikasi web atau mobile .
             </p>
             <button className="btn btn-danger ">Disable</button>
           </div>

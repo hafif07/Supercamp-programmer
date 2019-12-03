@@ -14,6 +14,7 @@ import InstructorJS from "./Instructor/InstructorJS";
 import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer";
 import Content31 from "./Program/Content31";
 import Testimoni from "./Testimoni/Testimoni";
+import KeunggulanContainer from "../../Container/Keunggulan/Keunggulan";
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
           </div>
           <div className="col-md-12 mt-5 baris2">
             <Content2 />
+          </div>
+          <div className="col-md-12">
+            <KeunggulanContainer />
           </div>
           <div className="col-md-12  founder">
             <Founder />

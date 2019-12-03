@@ -10,7 +10,7 @@ const Testimoni = () => {
   return (
     <div className="row test mb-5">
       <div className="col-md-12  text-center">
-        <h1>Testimonial</h1>
+        <h1>Testimoni</h1>
       </div>
       <div className="col-md-12 card-img">
         <div className="row">
