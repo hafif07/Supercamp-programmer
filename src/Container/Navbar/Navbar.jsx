@@ -34,7 +34,9 @@ class NavbarContainer extends React.Component {
         portofolio: "#1C3864",
         testimoni: "#1C3864",
         contact: "#1b92de",
-        program: "#1C3864"
+        program: "#1C3864",
+        color: "white",
+        logo: true
       });
     } else if (window.scrollY > testimoni.offsetTop - 50) {
       this.setState({
@@ -44,7 +46,9 @@ class NavbarContainer extends React.Component {
         portofolio: "#1C3864",
         testimoni: "#1b92de",
         contact: "#1C3864",
-        program: "#1C3864"
+        program: "#1C3864",
+        color: "white",
+        logo: true
       });
     } else if (window.scrollY > portofolio.offsetTop - 50) {
       this.setState({
@@ -54,7 +58,9 @@ class NavbarContainer extends React.Component {
         portofolio: "#1b92de",
         testimoni: "#1C3864",
         contact: "#1C3864",
-        program: "#1C3864"
+        program: "#1C3864",
+        color: "white",
+        logo: true
       });
     } else if (window.scrollY > instructor.offsetTop - 50) {
       this.setState({
@@ -64,17 +70,21 @@ class NavbarContainer extends React.Component {
         portofolio: "#1C3864",
         testimoni: "#1C3864",
         contact: "#1C3864",
-        program: "#1C3864"
+        program: "#1C3864",
+        color: "white",
+        logo: true
       });
     } else if (window.scrollY > program.offsetTop - 50) {
       this.setState({
         program: "#1b92de",
+        color: "white",
         home: "#1C3864",
         about: "#1C3864",
         instructor: "#1C3864",
         portofolio: "#1C3864",
         testimoni: "#1C3864",
-        contact: "#1C3864"
+        contact: "#1C3864",
+        logo: true
       });
     } else if (window.scrollY > about.offsetTop - 50) {
       this.setState({
@@ -84,7 +94,9 @@ class NavbarContainer extends React.Component {
         portofolio: "#1C3864",
         testimoni: "#1C3864",
         contact: "#1C3864",
-        program: "#1C3864"
+        program: "#1C3864",
+        color: "white",
+        logo: true
       });
     } else if (window.scrollY > 300) {
       this.setState({

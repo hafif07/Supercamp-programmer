@@ -20,7 +20,9 @@ const Navbar = ({
       className="navbar navbar-expand-lg fixed-top header"
       style={{ background: `${color}`, boxShadow: `${shadow}` }}
     >
-      <img src={logo === false ? Logo2 : Logo} alt="" />
+      <a href="https://supercampprogrammer.com/">
+        <img src={logo === false ? Logo2 : Logo} alt="" />
+      </a>
       <button
         className="navbar-toggler"
         type="button"
@@ -30,7 +32,7 @@ const Navbar = ({
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i className="fa fa-list" ></i>
+        <i className="fa fa-list"></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="mr-auto"></div>

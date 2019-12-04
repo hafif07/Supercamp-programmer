@@ -6,15 +6,15 @@ class KeunggulanContainer extends Component {
     data: [
       {
         i: "fas fa-book",
-        text: "Modul disusun dalam bahasa indonesia"
+        text: "Modul disusun dalam bahasa Indonesia"
       },
       {
         i: "fas fa-user-tie",
-        text: "Dibimbing oleh trainer yang sudah mempunyai pengalaman mengajar dibidangnya"
+        text: "Dibimbing oleh trainer yang sudah mempunyai pengalaman mengajar di bidangnya"
       },
       {
         i: "fas fa-store-alt",
-        text: "Penginapan gratis bagi peserta diluar kota"
+        text: "Penginapan gratis bagi peserta dari keluar kota"
       },
       {
         i: "fas fa-coins",

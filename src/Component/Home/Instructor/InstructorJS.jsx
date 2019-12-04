@@ -27,7 +27,7 @@ const InstructorJS = () => {
 
                 <p className="mt-5 text-center">
                   "Siap mentransformasi kamu menjadi developer yang profesional
-                  , kreatif dan inofatif"
+                  , kreatif dan inovatif"
                 </p>
               </div>
             </div>
