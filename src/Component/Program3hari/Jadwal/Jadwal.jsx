@@ -1,15 +1,22 @@
 import React from "react";
 import data from "./data.json";
 import "./Jadwal.scss";
+import ScrollAnimation from "react-animate-on-scroll"
 
 const Jadwal = () => {
   return (
     <div className="col-md-12">
       <div className="col-md-12 mt-5 text-center jadwal ">
-        <h1>Jadwal Pelatihan</h1>
+
+        <ScrollAnimation animateIn="fadeInDown">
+          <h1>Jadwal Pelatihan</h1>
         <h2>Februari 2020</h2>
+
+        </ScrollAnimation>
+        
       </div>
       <div className="col-md-12 mt-5 table-jadwal">
+        <ScrollAnimation animateIn="fadein">
         <table className="table">
           <thead className="thead-dark">
             <tr>
@@ -38,6 +45,7 @@ const Jadwal = () => {
             ))}
           </tbody>
         </table>
+        </ScrollAnimation>
       </div>
     </div>
   );

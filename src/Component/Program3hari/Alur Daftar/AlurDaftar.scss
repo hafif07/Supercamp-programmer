@@ -39,6 +39,12 @@
     background: var(--main);
     color: white;
 }
+
+.txt-daftar{
+    h1{
+  color: #1C3864;
+    }
+}
 @media only screen and (max-width:960px){
     .timeline .row::after {
         left: 5px;

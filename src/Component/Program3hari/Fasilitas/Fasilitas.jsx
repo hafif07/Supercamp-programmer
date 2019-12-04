@@ -1,12 +1,15 @@
 import React from "react";
 import "./Fasilitas.scss";
 import data from  "./data.json"
+import ScrollAnimation from "react-animate-on-scroll"
 
 const Fasilitas = () => {
   return (
     <div className="row mt-5 fasilitas justify-content-center text-center">
       <div className="col-md-12">
+        <ScrollAnimation animateIn="fadeInDown">
         <h1>Fasilitas Peserta</h1>
+        </ScrollAnimation>
       </div>
       <div className="col-md-10">
         <div className="row ">
