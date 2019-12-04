@@ -1,0 +1,30 @@
+{
+    "Fasilitas" : [
+        {
+            "id": "1",
+            "img": "fa fa-wifi",
+            "text":"Akses Internet"
+        },        {
+            "id": "2",
+            "img": "fa fa-school",
+            "text":"Penginapan gratis dari perserta dari luar kota"
+        },        {
+            "id": "3",
+            "img": "fa fa-utensils",
+            "text":"Coffe break and lunch"
+        },        {
+            "id": "4",
+            "img": "fa fa-id-card",
+            "text":"Sertifikat"
+        },        {
+            "id": "5",
+            "img": "fa fa-briefcase",
+            "text":"Souvenir Camp"
+        },        {
+            "id": "6",
+            "img": "fa fa-atlas",
+            "text":"Modul"
+        }
+
+    ]
+}
