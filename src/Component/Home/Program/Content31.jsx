@@ -42,7 +42,7 @@ const Content31 = () => {
               untuk dapat menggunakan fitur-fitur atau third part library
               tertentu dari suatu framework .
             </p>
-            <button className="btn btn-success mb-3">Availbale</button>
+            <button className="btn btn-success mb-3">Available</button>
           </div>
         </div>
         <div
@@ -58,7 +58,7 @@ const Content31 = () => {
               akan diberikan pelatihan untuk dapat menggunakan framework dari
               awal hingga dapat membuat aplikasi web atau mobile .
             </p>
-            <button className="btn btn-danger ">Disable</button>
+            <button className="btn btn-danger ">Not Available</button>
           </div>
         </div>
         <div
@@ -74,7 +74,7 @@ const Content31 = () => {
               bahasa pemrograman dasar dan dapat menggunakan framework dari awal
               hingga dapat membuat aplikasi web atau mobile .
             </p>
-            <button className="btn btn-danger ">Disable</button>
+            <button className="btn btn-danger ">Not Available</button>
           </div>
         </div>
       </div>
