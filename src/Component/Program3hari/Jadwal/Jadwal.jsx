@@ -1,5 +1,5 @@
 import React from "react";
-import Jadwals from "./Jadwal.json";
+import data from "./data.json";
 import "./Jadwal.scss";
 
 const Jadwal = () => {
@@ -9,8 +9,8 @@ const Jadwal = () => {
         <h1>Jadwal Pelatihan</h1>
       </div>
       <div className="col-md-12 mt-5">
-        <table class="table">
-          <thead class="thead-dark">
+        <table className="table">
+          <thead className="thead-dark">
             <tr>
               <th scope="col"></th>
               <th scope="col">Tanggal</th>
@@ -22,16 +22,16 @@ const Jadwal = () => {
             </tr>
           </thead>
           <tbody>
-            {Jadwals.Jadwal.map(data => (
-              <tr key={data.id}>
-                <th scope="row">{data.gelombang}</th>
-                <td>{data.tanggal}</td>
-                <td>{data.pelatihan}</td>
-                <td>{data.durasi}</td>
-                <td>{data.waktu}</td>
-                <td>{data.sisa}</td>
+            {data.Jadwals.map(res => (
+              <tr key={res.id}>
+                <th scope="row">{res.gelombang}</th>
+                <td>{res.tanggal}</td>
+                <td>{res.pelatihan}</td>
+                <td>{res.durasi}</td>
+                <td>{res.waktu}</td>
+                <td>{res.sisa}</td>
                 <td className="color-title">
-                  <h5>{data.status} </h5>{" "}
+                  <h5>{res.status} </h5>{" "}
                 </td>
               </tr>
             ))}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Fasilitas.scss";
-import Fasilitass from  "./Fasilitas.json"
+import data from  "./data.json"
 
 const Fasilitas = () => {
   return (
@@ -10,10 +10,10 @@ const Fasilitas = () => {
       </div>
       <div className="col-md-10">
         <div className="row ">
-            {Fasilitass.Fasilitas.map((data,index) => (
-                <div className="col-md-4 mt-5">
+            {data.Fasilitass.map((data,index) => (
+                <div className="col-md-4 mt-5" key={index}>
                     {/* content card open */}
-                            <div className="card" key={index} >
+                            <div className="card"  >
                                 <i className={data.img}></i>
                               
                                 <div className="card-body">
