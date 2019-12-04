@@ -32,14 +32,14 @@ const Program3hari = () => {
             <Fasilitas />
           </div>
           <div className="col-md-12">
-            <Jadwal/>
+            <Jadwal />
           </div>
           <div className="col-md-12">
             <Lokasi />
           </div>
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <CaraDaftar />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

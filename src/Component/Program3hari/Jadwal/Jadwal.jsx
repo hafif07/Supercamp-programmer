@@ -8,7 +8,7 @@ const Jadwal = () => {
       <div className="col-md-12 mt-5 text-center jadwal ">
         <h1>Jadwal Pelatihan</h1>
       </div>
-      <div className="col-md-12 mt-5">
+      <div className="col-md-12 mt-5 table-jadwal">
         <table className="table">
           <thead className="thead-dark">
             <tr>
