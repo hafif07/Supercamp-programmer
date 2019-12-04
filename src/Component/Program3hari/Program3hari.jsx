@@ -8,8 +8,10 @@ import Persyaratan from "./Persyaratan/Persyaratan";
 import Fasilitas from "./Fasilitas/Fasilitas";
 import Jadwal from "./Jadwal/Jadwal";
 import Lokasi from "./Lokasi/Lokasi";
-import CaraDaftar from "../Cara-Daftar/caraDaftar";
 import AlurDaftar from "./Alur Daftar/AlurDaftar";
+import Investasi from "./Investasi/Investasi";
+import Copyright from "../Copyright/Copyright";
+
 
 const Program3hari = () => {
   return (
@@ -39,7 +41,13 @@ const Program3hari = () => {
             <Lokasi />
           </div>
           <div className="col-md-12">
-           <AlurDaftar/>
+            <AlurDaftar />
+          </div>
+          <div className="col-md-12">
+            <Investasi />
+          </div>
+          <div className="col-md-12">
+           <Copyright/>
           </div>
         </div>
       </div>
