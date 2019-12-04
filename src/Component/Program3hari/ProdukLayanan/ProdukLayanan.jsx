@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProdukLayanan.scss";
-import rjs from "../../../Assets/rjs.png"
-import rn from "../../../Assets/rn.png"
+import rjs from "../../../Assets/sampuljs.png"
+import rn from "../../../Assets/sampulrn.png"
 
 const ProdukLayanan = () => {
   return (

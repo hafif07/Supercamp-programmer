@@ -1,22 +1,20 @@
-.porto-card{
-    border: none;
-    
-   img{
-       cursor: pointer;
-       &:hover{
-          position: relative;
-          width: 350px;
-          opacity: 0.6;
-          transition: 1s;
-       }
-   }
+.porto-card {
+  border: none;
+  &:hover {
+    position: relative;
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+
+  img {
+    cursor: pointer;
+  }
 }
 
-.txt-por{
-    margin-top:80px;
-    margin-bottom: 80px;
-    h1{
-        color: #1C3864
-    }
+.txt-por {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  h1 {
+    color: #1c3864;
+  }
 }
-
