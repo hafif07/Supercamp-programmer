@@ -1,7 +1,6 @@
 import React from "react";
 import svg from "../../../Assets/redux.svg";
 import "./Content31.scss";
-import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Content31 = () => {
@@ -47,9 +46,9 @@ const Content31 = () => {
                 untuk dapat menggunakan fitur-fitur atau third part library
                 tertentu dari suatu framework .
               </p>
-              <Link to="/program-3-hari">
+              <a href="https://supercampprogrammer.com/program-3-hari">
                 <button className="btn btn-success mb-3">Available</button>
-              </Link>
+              </a>
             </div>
           </div>
         </ScrollAnimation>
