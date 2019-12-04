@@ -9,6 +9,7 @@ import Fasilitas from "./Fasilitas/Fasilitas";
 import Jadwal from "./Jadwal/Jadwal";
 import Lokasi from "./Lokasi/Lokasi";
 import CaraDaftar from "../Cara-Daftar/caraDaftar";
+import AlurDaftar from "./Alur Daftar/AlurDaftar";
 
 const Program3hari = () => {
   return (
@@ -37,9 +38,9 @@ const Program3hari = () => {
           <div className="col-md-12">
             <Lokasi />
           </div>
-          {/* <div className="col-md-12">
-            <CaraDaftar />
-          </div> */}
+          <div className="col-md-12">
+           <AlurDaftar/>
+          </div>
         </div>
       </div>
     </>
