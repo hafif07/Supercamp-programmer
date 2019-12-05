@@ -19,7 +19,7 @@ const Pendaftaran = () => {
         </div>
         <div className="col-md-12 mt-5 mb-5">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 bg-svg">
               <CollapsePendaftaran />
             </div>
             <div className="col-md-6">
