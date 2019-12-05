@@ -9,7 +9,7 @@ const Investasi = () => {
 <div className="row mt-5">
     <div className="col-md-12 mb-5 text-center card-bg d-flex justify-content-center">
         <ScrollAnimation animateIn="fadeIn">
-        <div className="card crd" style={{width:"50rem"}}>
+        <div className="card crd">
             <div className="card-header">
             <h1>Investasi Pelatihan</h1>
             </div>
@@ -22,7 +22,7 @@ const Investasi = () => {
       
     </div>
     <div className="col-md-12 mt-5 d-flex justify-content-center mb-5 bg-daftar">
-        <div className="card " style={{width:"20rem"}}>
+        <div className="card ">
             <ScrollAnimation animateIn="tada">
                 <Link to="/pendaftaran">
             <div className="card-body text-center">
