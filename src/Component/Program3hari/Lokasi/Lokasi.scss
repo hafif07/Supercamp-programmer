@@ -1,5 +1,20 @@
 .lokasi{
+    .div{
+        // position: absolute;
+        h1{
+            font-size: 500px;
+        }
+    }
     h1{
         color: #1C3864
     }
+
+    .map-lokasi{
+        position: relative;
+
+    }
+}
+
+.kosong{
+    height: 80vh;
 }
