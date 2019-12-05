@@ -27,8 +27,7 @@ class NavbarContainer extends React.Component {
     const testimoni = document.getElementById("testimoni")
     const contact = document.getElementById("contact")
     const program = document.getElementById("program")
-    if(<Link to="/"/>){
-      return () => {
+    
         if (window.scrollY > contact.offsetTop - 450) {
           this.setState({
             about: "#1C3864",
@@ -129,8 +128,7 @@ class NavbarContainer extends React.Component {
             contact: "white",
             program: "white"
           });
-        }
-      }
+       
 
 
     }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Content2.scss";
 import Logo from "../../../Assets/logo4.png";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const Content2 = () => {
   return (
@@ -10,15 +9,12 @@ const Content2 = () => {
         <div className="col-md-6 right">
           <div className="card card-right">
             <div className="card-body">
-              <ScrollAnimation animateIn="fadeIn">
                 <img src={Logo} alt="" />
-              </ScrollAnimation>
             </div>
           </div>
         </div>
         <div className="col-md-6 left">
           <div className="row">
-            <ScrollAnimation animateIn="fadeIn">
               <div className="card card-left">
                 <div className="card-body">
                   <h1>SUPERCAMP PROGRAMMER</h1>
@@ -34,7 +30,6 @@ const Content2 = () => {
                   </p>
                 </div>
               </div>
-            </ScrollAnimation>
           </div>
         </div>
       </div>
