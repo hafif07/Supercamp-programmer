@@ -25,11 +25,11 @@ const Caraousel = () => {
           <div key={data.id} className={data.class}>
             <div className="card card-title-caraousel">
               <div className="card-body ">
-                <h5 className="card-title">{data.h5}</h5>
-                <p className="card-text">{data.text}</p>
+                <h5 className="card-title animated fadeIn delay-1s">{data.h5}</h5>
+                <p className="card-text animated fadeIn delay-1s">{data.text}</p>
               </div>
             </div>
-            <img src={data.img} className="d-block " alt="..." />
+            <img src={data.img} className="d-block animated zoomIn  " alt="..." />
           </div>
         ))}
         <div className="bg"></div>

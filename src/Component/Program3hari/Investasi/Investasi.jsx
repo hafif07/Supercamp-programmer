@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Investasi.scss"
 import ScrollAnimation from "react-animate-on-scroll"
+import {Link} from "react-router-dom"
 
 
 const Investasi = () => {
@@ -23,9 +24,11 @@ const Investasi = () => {
     <div className="col-md-12 mt-5 d-flex justify-content-center mb-5 bg-daftar">
         <div className="card " style={{width:"20rem"}}>
             <ScrollAnimation animateIn="tada">
+                <Link to="/pendaftaran">
             <div className="card-body text-center">
                 <h3>Daftar Sekarang</h3>
             </div>
+            </Link>
             </ScrollAnimation>
         </div>
     </div>
