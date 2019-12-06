@@ -149,7 +149,9 @@ class NavbarContainer extends React.Component {
   };
 
   componentDidMount() {
-    // window.addEventListener("scroll", this.listenScrollEvent);
+    if(window.location.pathname === "/"){
+      window.addEventListener("scroll", this.listenScrollEvent);
+    }
   }
 
   render() {

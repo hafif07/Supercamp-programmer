@@ -26,38 +26,51 @@ const Jadwal = props => {
               </tr>
             </thead>
             <tbody>
-              {props.dataTable.map((res,index) => (
-                <tr key={index}>
-                  {/* <th scope='row'>{res.gelombang}</th>
+              {props.isLoading === true   ? (
+                <div className="container-fluid">
+                <div className='lds-facebook '>
+                  <div />
+                  <div />
+                  <div />
+                  </div>
+                </div>
+                
+              ) : (
+                props.dataTable.map((res, index) => (
+                  <tr key={res.id}>
+                    {/* <th scope='row'>{res.gelombang}</th>
                   <td>{res.tanggal}</td> */}
-                  {res.class_month === "1" && res.class_duration === "1" ? (
-                    <>
-                      <th scope='row'>Gelombang {res.class_wave }</th>
-                      <td>
-                      {res.date} February
-                      </td>
-                      <td>{res.subject}</td>
-                      <td>3 Hari</td>
-                      <td>08.00 - 16.00</td>
-                      <td>{res.quota}</td>
-                      <td
-                        className={
-                          res.status === 'Tersedia' ? 'text-success' : 'text-danger'
-                        }
-                      >
-                        {res.status === 'Tersedia' ? 'Available' : 'Not Available'}
-                      </td>
-                    </>
-                  ) : null}
+                    {res.class_month === '1' && res.class_duration === '1' ? (
+                      <>
+                        <th scope='row'>Gelombang {res.class_wave}</th>
+                        <td>{res.date} February</td>
+                        <td>{res.subject}</td>
+                        <td>3 Hari</td>
+                        <td>08.00 - 16.00</td>
+                        <td>{res.quota}</td>
+                        <td
+                          className={
+                            res.status === 'Tersedia'
+                              ? 'text-success'
+                              : 'text-danger'
+                          }
+                        >
+                          {res.status === 'Tersedia'
+                            ? 'Available'
+                            : 'Not Available'}
+                        </td>
+                      </>
+                    ) : null}
 
-                  {/* <td>{res.durasi}</td>
+                    {/* <td>{res.durasi}</td>
                   <td>{res.waktu}</td>
                   <td>{res.sisa}</td>
                   <td className='color-title'>
                     <h5>{res.status} </h5>{' '}
                   </td> */}
-                </tr>
-              ))}
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </ScrollAnimation>

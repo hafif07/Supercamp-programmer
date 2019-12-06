@@ -7,7 +7,8 @@ class JadwalContainer extends React.Component {
     super()
     this.state = {
       jadwal: [],
-      token: ''
+      token: '',
+      isLoading:false
     }
   }
 
@@ -25,6 +26,9 @@ class JadwalContainer extends React.Component {
       email: 'superprogrammer@gmail.com',
       password: 'itmanager'
     }
+    this.setState({
+      isLoading:true
+    })
     Axios.post('https://api.supercampprogrammer.com/login', Login).then(res => {
       console.log(res.data[0].token)
       const token = res.data[0].token
@@ -39,14 +43,15 @@ class JadwalContainer extends React.Component {
         console.log('get', res.data)
         const jadwal = res.data
         this.setState({
-            jadwal:jadwal
+            jadwal:jadwal,
+            isLoading:false
         })
       })
     })
   }
 
   render () {
-    return <Jadwal dataTable={this.state.jadwal} />
+    return <Jadwal dataTable={this.state.jadwal} isLoading={this.state.isLoading} />
   }
 }
 
