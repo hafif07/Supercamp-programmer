@@ -42,14 +42,14 @@ const Navbar = ({
             className="nav-item nav-link text-p"
             href="#home"
           >
-            Home
+            Beranda
           </a>
           <a
             style={{ color: `${about}` }}
             className="nav-item nav-link "
             href="#about"
           >
-            About
+            Tentang Kami
           </a>
 
           <a
@@ -65,7 +65,7 @@ const Navbar = ({
             className="nav-item nav-link "
             href="#instructor"
           >
-            Instructor
+            Mentor
           </a>
 
           <a
@@ -89,7 +89,7 @@ const Navbar = ({
             className="nav-item nav-link "
             href="#contact"
           >
-            Contact
+            Kontak
           </a>
         </div>
       </div>
