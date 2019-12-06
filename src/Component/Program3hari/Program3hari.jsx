@@ -6,11 +6,11 @@ import Deskripsi from "./Deskripsi/Deskripsi";
 import ProdukLayanan from "./ProdukLayanan/ProdukLayanan";
 import Persyaratan from "./Persyaratan/Persyaratan";
 import Fasilitas from "./Fasilitas/Fasilitas";
-import Jadwal from "./Jadwal/Jadwal";
 import Lokasi from "./Lokasi/Lokasi";
 import AlurDaftar from "./Alur Daftar/AlurDaftar";
 import Investasi from "./Investasi/Investasi";
 import Copyright from "../Copyright/Copyright";
+import JadwalContainer from "../../Container/Pages/Jadwal/Jadwal";
 
 
 const Program3hari = () => {
@@ -35,7 +35,7 @@ const Program3hari = () => {
             <Fasilitas />
           </div>
           <div className="col-md-12">
-            <Jadwal />
+          <JadwalContainer/>
           </div>
           <div className="col-md-12">
             <Lokasi />
