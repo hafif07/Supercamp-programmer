@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../Component/Navbar/Navbar";
-import {Link} from "react-router-dom"
 
 class NavbarContainer extends React.Component {
   constructor() {
@@ -38,7 +37,9 @@ class NavbarContainer extends React.Component {
             contact: "#1b92de",
             program: "#1C3864",
             color: "white",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > testimoni.offsetTop - 50) {
           this.setState({
@@ -50,7 +51,9 @@ class NavbarContainer extends React.Component {
             contact: "#1C3864",
             program: "#1C3864",
             color: "white",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > portofolio.offsetTop - 50) {
           this.setState({
@@ -62,7 +65,9 @@ class NavbarContainer extends React.Component {
             contact: "#1C3864",
             program: "#1C3864",
             color: "white",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > instructor.offsetTop - 50) {
           this.setState({
@@ -74,7 +79,9 @@ class NavbarContainer extends React.Component {
             contact: "#1C3864",
             program: "#1C3864",
             color: "white",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > program.offsetTop - 50) {
           this.setState({
@@ -86,7 +93,9 @@ class NavbarContainer extends React.Component {
             portofolio: "#1C3864",
             testimoni: "#1C3864",
             contact: "#1C3864",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > about.offsetTop - 50) {
           this.setState({
@@ -98,7 +107,9 @@ class NavbarContainer extends React.Component {
             contact: "#1C3864",
             program: "#1C3864",
             color: "white",
-            logo: true
+            logo: true,
+            shadow: "0px 0px 15px #777",
+
           });
         } else if (window.scrollY > 300) {
           this.setState({
