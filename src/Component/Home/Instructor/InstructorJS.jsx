@@ -8,7 +8,7 @@ const InstructorJS = () => {
     <div className="row mt-5 text-center ins">
       <div className="col-md-12 inst-txt">
         <ScrollAnimation animateIn="fadeInDown">
-          <h1>Instructor</h1>
+          <h1>Mentor</h1>
         </ScrollAnimation>
       </div>
 
@@ -22,7 +22,7 @@ const InstructorJS = () => {
               <div className="content-mutiara">
                 <h5 className="text-center">
                   Risqan Ramdhani<br></br>
-                  <p className="title-ceo">React Native Instructor</p>
+                  <p className="title-ceo">Mentor React Native</p>
                 </h5>
 
                 <p className="mt-5 text-center">
@@ -44,7 +44,7 @@ const InstructorJS = () => {
               <div className="content-mutiara">
                 <h5 className="text-center">
                   Bagas Ihsan<br></br>
-                  <p className="title-ceo">React JS Instructor</p>
+                  <p className="title-ceo">Mentor React Js</p>
                 </h5>
 
                 <p className="mt-5 text-center">
