@@ -1,7 +1,7 @@
 import React from 'react'
 import "./TablePendaftaran.scss"
 
-const ContentPendafataran = () => {
+const ContentPendafataran = (props) => {
   return (
     <>
       <div className='row label'>
@@ -97,9 +97,9 @@ const ContentPendafataran = () => {
             <div className='form-group row'>
               <label className='col-sm-2 col-form-label'>Foto</label>
               <div className='col-sm-10'>
-                <input type='file' className='' placeholder='No WA' />
+                <input type='file' className='' onChange={props.handleChange} placeholder='No WA' />
               </div>
-              <img style={{width:"200px", height:"200px"}} src={} alt="" />>
+              <img className="img-state" style={{width:"100px", height:"100px"}} src={props.img} alt="" />
             </div>
             <div className='form-group row'>
               <label className='col-sm-2 col-form-label'>Ukuran Kaos</label>

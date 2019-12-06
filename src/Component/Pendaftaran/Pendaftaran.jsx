@@ -4,9 +4,9 @@ import "./Pendaftaran.scss";
 import ContentPendaftaran1 from "./Content1/ContentPendaftaran1";
 import CollapsePendaftaran from "./Content2/CollapsePendafataran";
 import Footer from "../Home/Footer/Footer";
-import TablePendaftaran from "../Pendaftaran/Content2/TablePendaftaran";
 import Copyright from "../Copyright/Copyright";
 import NavbarProgram from "../Program3hari/Navbar/Navbar3hari";
+import TablePendaftaranContainer from "../../Container/Pages/Pendaftaran/Pendaftaran";
 
 const Pendaftaran = () => {
   return (
@@ -23,7 +23,7 @@ const Pendaftaran = () => {
               <CollapsePendaftaran />
             </div>
             <div className="col-md-6">
-              <TablePendaftaran />
+             <TablePendaftaranContainer/>
             </div>
           </div>
         </div>
