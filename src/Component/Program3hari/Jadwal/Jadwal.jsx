@@ -26,18 +26,15 @@ const Jadwal = props => {
               </tr>
             </thead>
             <tbody>
-              {props.dataTable.map(res => (
-                <tr key={res.id}>
+              {props.dataTable.map((res,index) => (
+                <tr key={index}>
                   {/* <th scope='row'>{res.gelombang}</th>
                   <td>{res.tanggal}</td> */}
-                  {res.class_month === '1' && res.class_year === '2020' ? (
+                  {res.class_month === "1" && res.class_duration === "1" ? (
                     <>
-                      <th scope='row'>Gelombang {res.id}</th>
+                      <th scope='row'>Gelombang {res.class_wave }</th>
                       <td>
-                        {res.class_date === '1' ? '1 - 3' : null}
-                        {res.class_date === '2' ? '8-10' : null}
-                        {res.class_date === '3' ? '15-17' : null}
-                        {res.class_date === '4' ? '22-24' : null} February
+                      {res.date} February
                       </td>
                       <td>{res.subject}</td>
                       <td>3 Hari</td>
@@ -45,10 +42,10 @@ const Jadwal = props => {
                       <td>{res.quota}</td>
                       <td
                         className={
-                          res.status === '0' ? 'text-success' : 'text-danger'
+                          res.status === 'Tersedia' ? 'text-success' : 'text-danger'
                         }
                       >
-                        {res.status === '0' ? 'Available' : 'Not Available'}
+                        {res.status === 'Tersedia' ? 'Available' : 'Not Available'}
                       </td>
                     </>
                   ) : null}
