@@ -1,56 +1,15 @@
-.card-content31-program {
-  border: none;
-  background: #fefefe;
-  margin-top: 50px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-  height: 45vh;
-  .card-header {
-    background: #fefefe;
-    padding-bottom: 30px;
+.program-card {
+  .card {
     border: none;
+    background: none;
   }
 
-  i {
-    font-size: 100px;
-    color: #1c3864;
-  }
-
-  svg {
-    font-size: 100px;
-
-    display: block;
-    margin: 0 auto;
-  }
-  p {
-    color: rgb(143, 140, 140);
+  img {
+    width: 350px;
+    height: 350px;
   }
 }
 
-.c-3 {
-  margin-top: 100px;
-  padding-top: 50px;
-  .h1-program {
-    margin-top: 50px;
-  }
-  h1 {
-    color: #1c3864;
-  }
-}
-
-.btn-program {
-  height: 270px;
-  text-align: justify;
-  // margin-bottom: 3000px;
-}
-
-@media (min-width: 720px) {
-  .card-body {
-    position: relative;
-    width: 100%;
-    button {
-      position: absolute;
-      bottom: 25px;
-      right: 35%;
-    }
-  }
+.h1-judul{
+  color: #1C3864;
 }

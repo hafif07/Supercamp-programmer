@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$txt : 'Montserrat', sans-serif;
+
 .keungulan{
     .card {
         border: none;
     }
     i {
         font-size: 60px;
+        color: rgb(83, 81, 81);
     }
     h1 {
-        color : #1C3864
+        color : #1C3864,
+     
     }
+
+}
+
+.i-icon{
+p{
+    font-family: $txt;
+}
 }

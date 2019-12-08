@@ -40,7 +40,6 @@ class JadwalContainer extends React.Component {
           Authorization: 'Bearer' + this.state.token
         }
       }).then(res => {
-        console.log('get', res.data)
         const jadwal = res.data
         this.setState({
             jadwal:jadwal,

@@ -61,13 +61,6 @@ const Jadwal = props => {
                         </td>
                       </>
                     ) : null}
-
-                    {/* <td>{res.durasi}</td>
-                  <td>{res.waktu}</td>
-                  <td>{res.sisa}</td>
-                  <td className='color-title'>
-                    <h5>{res.status} </h5>{' '}
-                  </td> */}
                   </tr>
                 ))
               )}

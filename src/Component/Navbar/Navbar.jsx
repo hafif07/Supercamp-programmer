@@ -9,7 +9,7 @@ const Navbar = ({
   logo,
   home,
   about,
-  instructor,
+  // instructor,
   portofolio,
   testimoni,
   contact,
@@ -60,13 +60,13 @@ const Navbar = ({
             Program
           </a>
 
-          <a
+          {/* <a
             style={{ color: `${instructor}` }}
             className="nav-item nav-link "
             href="#instructor"
           >
             Mentor
-          </a>
+          </a> */}
 
           <a
             style={{ color: `${portofolio}` }}

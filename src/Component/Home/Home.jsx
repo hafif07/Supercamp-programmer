@@ -37,9 +37,9 @@ const Home = () => {
           <div id="program" className="col-md-12 baris3">
             <Content31 />
           </div>
-          <div id="instructor" className="col-md-12 instructor">
+          {/* <div id="instructor" className="col-md-12 instructor">
             <InstructorJS />
-          </div>
+          </div> */}
           <div id="portofolio" className="col-md-12 portofolio">
             <PortofolioContainer />
           </div>

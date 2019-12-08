@@ -6,13 +6,13 @@ const Keunggulan = ({ keunggulan }) => {
     <div className="row mt-5 keungulan justify-content-center text-center">
       <div className="col-md-12">
         <ScrollAnimation animateIn="fadeInDown">
-          <h1>Keunggulan Pelatihan di Supercamp Programmer</h1>
+          <h1>Keunggulan</h1>
         </ScrollAnimation>
       </div>
       <div className="col-md-10">
         <div className="row ">
           {keunggulan.map((data, index) => (
-            <div className="col-md-4 mt-5">
+            <div className="col-md-4 mt-5 i-icon">
               {/* content card open */}
               <div className="card" key={index}>
                 <i className={data.i}></i>

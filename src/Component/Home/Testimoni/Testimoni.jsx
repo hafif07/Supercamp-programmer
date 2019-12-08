@@ -9,14 +9,14 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Testimoni = () => {
   return (
-    <div className="row test mb-5">
+    <div className="row test mb-5 d-flex justify-content-center">
       <div className="col-md-12  text-center">
         <ScrollAnimation animateIn="fadeInDown">
           <h1>Testimoni</h1>
         </ScrollAnimation>
       </div>
       <ScrollAnimation animateIn="fadeIn">
-        <div className="col-md-12 card-img">
+        <div className="col-md-12 card-img ">
           <div className="row">
             <div className="col-md-6">
               <img

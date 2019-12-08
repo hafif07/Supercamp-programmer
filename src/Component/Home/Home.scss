@@ -9,7 +9,7 @@ body{
 }
 .baris2 {
   background: linear-gradient(to right, rgba(15, 15, 15, 0.5), rgba(0, 0, 0, 0.7)),
-    url("https://www.lawgroup.com.au/wp-content/uploads/2019/02/Website-Design-Background-1.jpg");
+    url("https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1920x1080.jpg");
   // height: 600px;
   // min-height: 500px;
   background-attachment: fixed;
@@ -20,6 +20,9 @@ body{
 
 .founder{
   // height: 800px;
+  background-image:url(../../Assets/bg-svg.svg) ;
+  background-size: cover;
+
 
   
 }
@@ -39,6 +42,8 @@ body{
   background-color: #ffffff;
 }
 .instructor{
+  background-image:url(../../Assets//bg-svg2.svg);
+  background-size:cover ;
   // height: 900px;
 }
 

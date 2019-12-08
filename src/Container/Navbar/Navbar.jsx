@@ -69,20 +69,20 @@ class NavbarContainer extends React.Component {
             shadow: "0px 0px 15px #777",
 
           });
-        } else if (window.scrollY > instructor.offsetTop - 50) {
-          this.setState({
-            about: "#1C3864",
-            home: "#1C3864",
-            instructor: "#1b92de",
-            portofolio: "#1C3864",
-            testimoni: "#1C3864",
-            contact: "#1C3864",
-            program: "#1C3864",
-            color: "white",
-            logo: true,
-            shadow: "0px 0px 15px #777",
+        // } else if (window.scrollY > instructor.offsetTop - 50) {
+        //   this.setState({
+        //     about: "#1C3864",
+        //     home: "#1C3864",
+        //     instructor: "#1b92de",
+        //     portofolio: "#1C3864",
+        //     testimoni: "#1C3864",
+        //     contact: "#1C3864",
+        //     program: "#1C3864",
+        //     color: "white",
+        //     logo: true,
+        //     shadow: "0px 0px 15px #777",
 
-          });
+        //   });
         } else if (window.scrollY > program.offsetTop - 50) {
           this.setState({
             program: "#1b92de",

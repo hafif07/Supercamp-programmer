@@ -1,0 +1,46 @@
+{
+    "Data" :[
+        {
+            "id":"1",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-success"
+        },
+        {
+            "id":"2",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-danger"
+        },
+        {
+            "id":"3",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-danger"
+        },
+        {
+            "id":"4",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-danger"
+        },
+        {
+            "id":"5",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-danger"
+        },
+        {
+            "id":"6",
+            "img":"https://image.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg",
+            "title":"Membuat Website Resposive",
+            "title-btn":"Tersedia",
+            "btn": "btn btn-danger"
+        }
+    ]
+}
