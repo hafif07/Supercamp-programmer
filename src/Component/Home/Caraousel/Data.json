@@ -4,14 +4,14 @@
             "id":1,
             "class":"carousel-item active",
             "h5":"Dinamis",
-            "text":"Belajar pemrograman tidak hanya terpaut dengan satu teknologi, melainkan terus update berdasarkan dunia kerja",
+            "text":"Belajar pemrograman tidak hanya terpaut dengan satu teknologi, melainkan terus update berdasarkan kebutuhan dunia kerja",
             "img":"https://easyaccountingsystem.co.id/wp-content/uploads/2016/08/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg"
         },
         {
             "id":2,
             "class":"carousel-item",
             "h5":"Profesional",
-            "text":"Belajar dengan orang yang sudah berpengalaman dalam mengajar, hal ini akan efektif karena materi nantinya akan mudah diserap dan mudah di   pratikan",
+            "text":"Belajar dengan orang yang sudah berpengalaman dalam mengajar, hal ini akan efektif karena materi nantinya akan mudah diserap dan mudah dipraktikan",
             "img":"https://training.unh.edu/sites/default/files/media/coding_boot_camp_0.jpg"
         },
         {
@@ -25,7 +25,7 @@
             "id":4,
              "class":"carousel-item",
              "h5":"Sinergi",
-             "text":"Menanamkan nilai kerjasama adalah asas penting untuk membangun negeri yang berdiri di kaki  sendiri",
+             "text":"Belajar bukan untuk bersaing, melainkan untuk menciptakan budaya kerjasama dalam kebersamaan membangun negeri",
              "img":"https://cdn.ucfbootcamps.com/wp-content/uploads/sites/113/2017/04/code_overview-1140x440.jpg"
          }
     ]

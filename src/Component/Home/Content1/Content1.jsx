@@ -16,8 +16,7 @@ const Content1 = () => {
                 <p className="text-center">
                   <i className="fa fa-quote-left"></i> Menjadi wadah
                   pendidikan yang menyiapkan programmer profesional, kreatif
-                  , serta inovatif yang mampu bersaing di dunia nasional dan
-                  internasional <i className="fa fa-quote-right"></i>
+                  , serta inovatif yang mampu bekerja di perusahaan nasional maupun internasional dan mampu menciptakan budaya kerjasama dalam kebersamaan membangun negeri <i className="fa fa-quote-right"></i>
                 </p>
               </ScrollAnimation>
             </div>
