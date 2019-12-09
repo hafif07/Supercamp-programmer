@@ -3,6 +3,7 @@ import NavbarProgram from '../Program3hari/Navbar/Navbar3hari'
 import './Berbayar.scss'
 import Program from '../../Component/Program/Program'
 import Data from "./Data.json"
+import image from "./Data"
 
 const Berbayar = () => {
   return (
@@ -14,6 +15,7 @@ const Berbayar = () => {
             title='Program Berbayar'
             title2="Produk Pelayanan Pelatihan"
             text={Data.Data.isi}
+            Data={image.Datas}
           />
         </div>
       </div>

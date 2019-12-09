@@ -1,5 +1,49 @@
 {
-    "Data":{
-        "isi":"Tujuan utama kami dari program berbayar ini tidak semata - mata untuk mengambil keuntungan, melainkan program ini adalah salah satu misi kami untuk mencapai visi yang kami buat yaitu dapat mensinergikan banyak orang. Melihat fakta yang ada bahwa di lingkungan sekitar kita masih banyak terjadi kesenjangan sosial, masih banyak anak - anak yatim dan orang - orang miskin yang belum mampu mendapatkan pendidikan yang layak. Maka dari itu dari program berbayar ini kami ingin membangun fasilitas pendidikan unutk mereka, sehingga harapan kami kedepannya kesenjangan sosial di lingkungan sekitar kita akan dapat terminimalisir"
+  "Data": {
+    "isi": "Tujuan utama kami dari program berbayar ini tidak semata - mata untuk mengambil keuntungan, melainkan program ini adalah salah satu misi kami untuk mencapai visi yang kami buat yaitu dapat mensinergikan banyak orang. Melihat fakta yang ada bahwa di lingkungan sekitar kita masih banyak terjadi kesenjangan sosial, masih banyak anak - anak yatim dan orang - orang miskin yang belum mampu mendapatkan pendidikan yang layak. Maka dari itu dari program berbayar ini kami ingin membangun fasilitas pendidikan unutk mereka, sehingga harapan kami kedepannya kesenjangan sosial di lingkungan sekitar kita akan dapat terminimalisir"
+  },
+  "Datas": [
+    {
+      "id": "1",
+      "img": "https://lh6.googleusercontent.com/7kjcAmyHP2ORhpuGTQTJ9BOMxkorVOEBmo_nehHcSdeBF5br6Fihh_1sdCbArHpZeJIdZg",
+      "title": "Membuat Website Resposive",
+      "titleBtn": "Tersedia",
+      "btn": "btn btn-success"
+    },
+    {
+      "id": "2",
+      "img": "https://lh3.googleusercontent.com/I0AdKWfUOL5APrhzmbi9Gr7uXk7dU6y3XY5nPaxmaZoxMmFa00pvx6X7PknU4wgiWE0E4w",
+      "title": "Membuat Aplikasi QR Scanner & Kartu Nama QR",
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
+    },
+    {
+      "id": "3",
+      "img": "https://lh6.googleusercontent.com/z6wSPid_qMEhhRYczsZCno2NwD9-qNg5O_Qhirvk0JkOCP-HDGuvvqvBSJeOivA3do86Gw",
+      "title": "React JS Basic",
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
+    },
+    {
+      "id": "4",
+      "img": "https://lh4.googleusercontent.com/63HaZ-DW4z5hvE0DToJHc22GDpX9h6LgnFLvoN-1-eHWuwvc_2Ykn4eqzZQ0JyfGYKrebQ",
+      "title": "React Native Basic",
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
+    },
+    {
+      "id": "5",
+      "img": "https://lh6.googleusercontent.com/yUZaEeWuX8VYhIIkIWirhTBlkrVh29yhDOOrsHfeJBWty8MBZ07LrhUsRAhbsMoqG3LxdA",
+      "title": "REACT NATIVE : Redux Dasar Dan Penerapan",
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
+    },
+    {
+      "id": "6",
+      "img": "https://lh4.googleusercontent.com/m4cx5RQ9RInNy7V_ITpK_13hV2I-aXJMWEcl8YDiyPs51EDvrXUTctgsWdUlLa4VsO_ZDA",
+      "title": "REACT JS : Redux Dasar Dan Penerapan",
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
     }
+  ]
 }

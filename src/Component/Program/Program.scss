@@ -11,8 +11,35 @@ $font: "Montserrat", sans-serif;
   }
 }
 .card-isinya {
+  .card {
+    // border: none;
+    width: 300px;
+  }
   img {
     width: 300px;
     height: 300px;
+    transition: all ease 0.4s;
+
+    &:hover {
+      transform: translateY(5px);
+      width: 305px;
+      transition: 0.5s;
+    }
+  }
+
+  .card-body {
+    position: relative;
+    height: 22vh;
+    button {
+      position: absolute;
+      left: 15%;
+      bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .ml-5 {
+    margin-left: 0 !important;
   }
 }
