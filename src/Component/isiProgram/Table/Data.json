@@ -1,0 +1,89 @@
+{
+    "Data":[
+        {
+            "id":1,
+            "gelombang":"Gelombang 1",
+            "tanggal" :"1 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":2,
+            "gelombang":"Gelombang 2",
+            "tanggal" :"2 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":3,
+            "gelombang":"Gelombang 3",
+            "tanggal" :"3 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":4,
+            "gelombang":"Gelombang 4",
+            "tanggal" :"    8 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":5,
+            "gelombang":"Gelombang 5",
+            "tanggal" :"9 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":6,
+            "gelombang":"Gelombang 6",
+            "tanggal" :"10 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":7,
+            "gelombang":"Gelombang 7",
+            "tanggal" :"15 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":8,
+            "gelombang":"Gelombang 8",
+            "tanggal" :"16 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":9,
+            "gelombang":"Gelombang 9",
+            "tanggal" :"17 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":10,
+            "gelombang":"Gelombang 10",
+            "tanggal" :"22 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":11,
+            "gelombang":"Gelombang 11",
+            "tanggal" :"23 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        },
+        {
+            "id":12,
+            "gelombang":"Gelombang 12x`",
+            "tanggal" :"24 Februari",
+            "sisa" : "24",
+            "status":"Tersedia" 
+        }
+
+    ]
+}

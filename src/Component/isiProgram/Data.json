@@ -1,0 +1,86 @@
+{
+    "Data":[
+        {
+            "id":1,
+            "img":"https://lh3.googleusercontent.com/4FkWpQFW73skRAp8nkVMK8TNoaeABGFHyy4pZCxg6d02CYKUPBzRU_cBatNHOfsULba0UA",
+            "title":"   Level : Dasar / Pemula"
+        },
+        {
+            "id":2,
+            "img":"https://lh5.googleusercontent.com/PJQqAbkOX3W8FW-vsZKQ2qLY9YccrIIQMpjPIepfEX88FLGowdS6VUzGozQTyW4J1b5qGg",
+            "title":"Durasi : 1 hari ( 08.00 - 17.00 WIB )"
+        },
+        {
+            "id":3,
+            "img":"https://lh6.googleusercontent.com/sgJzTZvuXWEUBIroqn0z0CDV04tWB0E6sPZek5tXpasNAylWXCzXWGIRbhr1QseHSeorRw",
+            "title":"Bahasa : Indonesia"
+        },
+        {
+            "id":4,
+            "img":"https://lh3.googleusercontent.com/T_BIXgirMkDiWrwPGeIWjcF1oSCtwUSoQiU-_svsGrMOMgJwRh26BDso7PYymp-UKArYcg",
+            "title":" Biaya: Rp 200.000,00"
+        }
+    ],
+    "pengenalan":[
+        {
+            "id":1,
+            "title":"Persiapan tools yang dibutuhkan dalam membuat website"
+        },
+        {
+            "id":2,
+            "title":"Teori dasar untuk membuat sebuah website responsive"
+        },
+        {
+            "id":3,
+            "title":"Pratik untuk membuat website responsive"
+        },
+        {
+            "id":4,
+            "title":"Teori dasar unutk menghosting dan menambahkan domain"
+        },
+        {
+            "id":5,
+            "title":"Pratik menghosting dan menambahkan domain"
+        }
+    ],
+    "persyaratan":[
+        {
+            "id":1,
+            "title":"Memiliki laptop"
+        },
+        {
+            "id":2,
+            "title":"Memiliki semangat dalam belajar"
+        },
+        {
+            "id":3,
+            "title":"Memiliki bukti pembayaran"
+        }
+    ],
+    "fasilitas":[
+        {
+            "id":1,
+            "title":"Akses Internet"
+        },
+        {
+            "id":2,
+            "title":"Penginapan gratis bagi peserta di luar kota"
+        },
+        {
+            "id":3,
+            "title":"Coffe break dan lunch"
+        },
+        {
+            "id":4,
+            "title":"Sertifikat"
+        },
+        {
+            "id":5,
+            "title":"Kaos"
+        },
+        {
+            "id":6,
+            "title":"Modul"
+        }
+    ]
+}

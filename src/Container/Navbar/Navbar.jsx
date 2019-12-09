@@ -11,7 +11,7 @@ class NavbarContainer extends React.Component {
       logo: false,
       home: "#1b92de",
       about: "white",
-      instructor: "white",
+      // instructor: "white",
       portofolio: "white",
       testimoni: "white",
       contact: "white",
@@ -21,7 +21,7 @@ class NavbarContainer extends React.Component {
 
   listenScrollEvent = e => {
     const about = document.getElementById("about")
-    const instructor = document.getElementById("instructor")
+    // const instructor = document.getElementById("instructor")
     const portofolio = document.getElementById("portofolio")
     const testimoni = document.getElementById("testimoni")
     const contact = document.getElementById("contact")
@@ -31,7 +31,7 @@ class NavbarContainer extends React.Component {
           this.setState({
             about: "#1C3864",
             home: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1C3864",
             testimoni: "#1C3864",
             contact: "#1b92de",
@@ -45,7 +45,7 @@ class NavbarContainer extends React.Component {
           this.setState({
             about: "#1C3864",
             home: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1C3864",
             testimoni: "#1b92de",
             contact: "#1C3864",
@@ -59,7 +59,7 @@ class NavbarContainer extends React.Component {
           this.setState({
             about: "#1C3864",
             home: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1b92de",
             testimoni: "#1C3864",
             contact: "#1C3864",
@@ -89,7 +89,7 @@ class NavbarContainer extends React.Component {
             color: "white",
             home: "#1C3864",
             about: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1C3864",
             testimoni: "#1C3864",
             contact: "#1C3864",
@@ -101,7 +101,7 @@ class NavbarContainer extends React.Component {
           this.setState({
             about: "#1b92de",
             home: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1C3864",
             testimoni: "#1C3864",
             contact: "#1C3864",
@@ -119,7 +119,7 @@ class NavbarContainer extends React.Component {
             logo: true,
             home: "#1C3864",
             about: "#1C3864",
-            instructor: "#1C3864",
+            // instructor: "#1C3864",
             portofolio: "#1C3864",
             testimoni: "#1C3864",
             contact: "#1C3864",
@@ -133,7 +133,7 @@ class NavbarContainer extends React.Component {
             logo: false,
             home: "#1b92de",
             about: "white",
-            instructor: "white",
+            // instructor: "white",
             portofolio: "white",
             testimoni: "white",
             contact: "white",
@@ -158,7 +158,7 @@ class NavbarContainer extends React.Component {
     const {
       home,
       about,
-      instructor,
+      // instructor,
       portofolio,
       testimoni,
       contact,
@@ -172,7 +172,7 @@ class NavbarContainer extends React.Component {
         logo={this.state.logo}
         home={home}
         about={about}
-        instructor={instructor}
+        // instructor={instructor}
         portofolio={portofolio}
         testimoni={testimoni}
         contact={contact}

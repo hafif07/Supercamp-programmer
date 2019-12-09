@@ -5,6 +5,7 @@ import Pendaftaran from "../Component/Pendaftaran/Pendaftaran";
 import Program3hari from "../Container/Pages/Program3Hari";
 import Berbayar from "../Component/Berbayar/Berbayar";
 import BebasBiaya from "../Component/Bebas Biaya/BebasBiaya";
+import IsiProgram from "../Component/isiProgram/IsiProgram";
 
 
 const Routes = () => {
@@ -16,6 +17,7 @@ const Routes = () => {
          <Route path="/program-3-hari" component={Program3hari}/> 
          <Route path="/berbayar" component={Berbayar}/>
          <Route path="/bebas_biaya" component={BebasBiaya}/>
+         <Route path="/website_responsive" component={IsiProgram} />
       </Switch>
     </Router>
   );

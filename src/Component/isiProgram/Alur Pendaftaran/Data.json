@@ -1,0 +1,43 @@
+{
+    "Data":[
+        {
+            "id":1,
+            "img":"https://c447.pcloud.com/dpZrdv0mhZ1KrwUhZgNtoZZK03UN7Z3VZZQ1kZXZRVn3gaQh2a0xvwbWok8QSkquCGYk/th-17579669818-339x339.png",
+            "data":"bottom",
+            "title":"Mengisi formulir pendaftaran",
+            "text":"Mengisi formulir pendaftaran"
+        },
+        {
+            "id":2,
+            "img":"https://c249.pcloud.com/dpZp0i0mhZPRexUhZgNtoZZ2D3UN7Z3VZZQ1kZXZGPClGuURdc51Qh81MS1nGymiN8dX/th-17579340608-340x340.png",
+            "data":"top",
+            "title":"Menunggu konfirmasi dari admin via WA",
+            "text":"Menunggu konfirmasi dari admin via WA"
+
+        },
+        {
+            "id":3,
+            "img":"https://c377.pcloud.com/dpZSVTJmhZklrwUhZgNtoZZD13UN7Z3VZZQ1kZXZ8cRpjTiKbq46pixfd7gRkk4eTgFk/th-17579669851-340x340.png",
+            "data":"bottom",
+            "title":"Melakukan pembayaran via transfer bank",
+            "text":"Melakukan pembayaran via transfer bank"
+
+        },
+        {
+            "id":4,
+            "img":"https://c389.pcloud.com/dpZCzr0mhZo8exUhZgNtoZZbe3UN7Z3VZZQ1kZXZzqGu2haUyEV36LDKI172mFyCL4jX/th-17579340814-340x340.png",
+            "data":"top",
+            "title":"Kirim Bukti Pembayaran via WA",
+            "text":"Kirim Bukti Pembayaran via WA"
+
+        },
+        {
+            "id":5,
+            "img":"https://c447.pcloud.com/dpZIri0mhZsjexUhZgNtoZZ3e3UN7Z3VZZQ1kZXZVFmnsKzekI7HWbDnOmdXYjNLnVwy/th-17579341209-340x340.png",
+            "data":"bottom",
+            "title":"Datang ke lokasi saat hari H",
+            "text":"Datang ke lokasi saat hari H"
+
+        }
+    ]
+}

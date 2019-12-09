@@ -1,0 +1,25 @@
+.row-alur {
+  .alur-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  img {
+    &:hover {
+      transform: translateY(-20px);
+      transition: 0.8s;
+    }
+  }
+
+  .text-p {
+    display: none;
+  }
+}
+
+@media only screen and(max-width:800px) {
+  .row-alur {
+    .text-p {
+      display: block;
+    }
+  }
+}

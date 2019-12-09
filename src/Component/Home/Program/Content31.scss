@@ -13,3 +13,17 @@
 .h1-judul{
   color: #1C3864;
 }
+
+
+
+@media only screen and(max-width:800px){
+  .program-card {
+   
+  
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+}

@@ -8,9 +8,9 @@ import Content2 from "./Content2/Content2";
 // import Content3 from "./Content3/Content3";
 // import Content4 from "./Content4/Content4";
 import Footer from "./Footer/Footer";
-import Copyright from "./Footer/Copyright";
+import Copyright from "./Footer/Copyright";import InstructorJS from "./Instructor/InstructorJS";
 
-import InstructorJS from "./Instructor/InstructorJS";
+// import InstructorJS from "./Instructor/InstructorJS";
 import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer";
 import Content31 from "./Program/Content31";
 import Testimoni from "./Testimoni/Testimoni";
@@ -24,7 +24,7 @@ const Home = () => {
         <div className="row">
           <div id="about" className="col-md-12 mt-5 baris1 ">
             <Content1 />
-          </div>
+          </div> 
           <div className="col-md-12 mt-5 baris2">
             <Content2 />
           </div>

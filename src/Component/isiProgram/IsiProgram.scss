@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$font :'Montserrat', sans-serif;
+.box{
+ background: #F5F5F5F5;   
+//  margin-bottom: 200px;
+}
+.left-arrow{
+    position: fixed;
+    z-index: 99;
+    margin-top:20px;
+    margin-left: 50px;
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.isi-program{
+    margin-top: 85px;
+    background: white;
+    width: 85%;
+
+ 
+
+    .card-harga{
+        height: 90px;
+        h5{        
+            margin-top: 25px ;
+            font-size: 40px;
+            color: white;
+        }
+    }
+    .img-isi{
+        width: 350px;
+    }
+    .row-isiprogram{
+        margin-left: 20px;
+    }
+    .card{
+        // width: 800px;
+        border: none;
+        background: none;
+        p{
+            font-family: $font;
+        }
+    }
+    .list-program-icon{
+        li{
+            background: none;
+            border: none;
+            
+        }
+
+      
+    }
+
+    .list-program{
+        li{
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        i{
+            font-size: 5px;
+        }
+    }
+    p{
+        font-family: $font;
+    }
+}
+
+.isi-program-img{
+    .img-isi{
+        border: 15px solid rgb(221, 216, 216);
+        
+    }
+
+    .img-pict1{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.btn-bg-isi{
+    background: #1C3864;
+    color: white;
+    margin: 80px;
+    &:hover{
+        color:white ;
+        background: rgb(73, 130, 221);
+    }
+}
+// .inves{
+//     margin-top: 120px;
+// }
+
+
+
+
+@media only screen and(max-width:1024px){
+    .list-program-icon{
+        margin-left: 5px;
+      
+    }
+}
+@media only screen and(max-width:800px){
+
+    .row-isiprogram{
+        margin-left: 0;
+    }
+    .isi-program-img{
+        .img-isi{
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .left-arrow{
+     margin-left: 10px;
+    }
+}
