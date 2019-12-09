@@ -111,7 +111,7 @@ const IsiProgram = () => {
                     style={{ background: '#1C3864' }}
                     className='card card-harga'
                 >
-                    <h5>Rp 200.000,00</h5>
+                    <h5>Rp 180.000,00</h5>
                 </div>
                 <Link to='/pendaftaran'>
                     <button
