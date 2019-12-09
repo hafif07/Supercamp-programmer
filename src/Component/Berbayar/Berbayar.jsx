@@ -14,6 +14,7 @@ const Berbayar = () => {
             title='Program Berbayar'
             title2="Produk Pelayanan Pelatihan"
             text={Data.Data.isi}
+            Data={Data.Datas}
           />
         </div>
       </div>
