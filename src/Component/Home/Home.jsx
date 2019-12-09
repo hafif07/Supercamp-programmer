@@ -15,6 +15,7 @@ import PortofolioContainer from "../../Container/Portofolio/PortofolioContainer"
 import Content31 from "./Program/Content31";
 import Testimoni from "./Testimoni/Testimoni";
 import KeunggulanContainer from "../../Container/Keunggulan/Keunggulan";
+import Lokasi from "../Program3hari/Lokasi/Lokasi";
 
 const Home = () => {
   return (
@@ -34,8 +35,11 @@ const Home = () => {
           <div className="col-md-12  founder">
             <Founder />
           </div>
-          <div id="program" className="col-md-12 baris3">
+          <div id="program" className="col-md-12 baris3 mb-5">
             <Content31 />
+          </div>
+          <div id="portofolio" className="col-md-12 portofolio mt-5">
+            <Lokasi />
           </div>
           {/* <div id="instructor" className="col-md-12 instructor">
             <InstructorJS />

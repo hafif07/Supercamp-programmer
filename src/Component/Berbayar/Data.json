@@ -7,42 +7,42 @@
       "id": "1",
       "img": "https://lh6.googleusercontent.com/7kjcAmyHP2ORhpuGTQTJ9BOMxkorVOEBmo_nehHcSdeBF5br6Fihh_1sdCbArHpZeJIdZg",
       "title": "Membuat Website Resposive",
-      "titleBtn": "Rp 150.000,00",
+      "titleBtn": "Tersedia",
       "btn": "btn btn-success"
     },
     {
       "id": "2",
       "img": "https://lh3.googleusercontent.com/I0AdKWfUOL5APrhzmbi9Gr7uXk7dU6y3XY5nPaxmaZoxMmFa00pvx6X7PknU4wgiWE0E4w",
       "title": "Membuat Aplikasi QR Scanner & Kartu Nama QR",
-      "titleBtn": "Rp 150.000,00",
-      "btn": "btn btn-success"
+      "titleBtn": "Segera",
+      "btn": "btn btn-danger"
     },
     {
       "id": "3",
       "img": "https://lh6.googleusercontent.com/z6wSPid_qMEhhRYczsZCno2NwD9-qNg5O_Qhirvk0JkOCP-HDGuvvqvBSJeOivA3do86Gw",
       "title": "React JS Basic",
-      "titleBtn": "Tersedia",
+      "titleBtn": "Segera",
       "btn": "btn btn-danger"
     },
     {
       "id": "4",
       "img": "https://lh4.googleusercontent.com/63HaZ-DW4z5hvE0DToJHc22GDpX9h6LgnFLvoN-1-eHWuwvc_2Ykn4eqzZQ0JyfGYKrebQ",
       "title": "React Native Basic",
-      "titleBtn": "Tersedia",
+      "titleBtn": "Segera",
       "btn": "btn btn-danger"
     },
     {
       "id": "5",
       "img": "https://lh6.googleusercontent.com/yUZaEeWuX8VYhIIkIWirhTBlkrVh29yhDOOrsHfeJBWty8MBZ07LrhUsRAhbsMoqG3LxdA",
       "title": "REACT NATIVE : Redux Dasar Dan Penerapan",
-      "titleBtn": "Tersedia",
+      "titleBtn": "Segera",
       "btn": "btn btn-danger"
     },
     {
       "id": "6",
       "img": "https://lh4.googleusercontent.com/m4cx5RQ9RInNy7V_ITpK_13hV2I-aXJMWEcl8YDiyPs51EDvrXUTctgsWdUlLa4VsO_ZDA",
       "title": "REACT JS : Redux Dasar Dan Penerapan",
-      "titleBtn": "Tersedia",
+      "titleBtn": "Segera",
       "btn": "btn btn-danger"
     }
   ]

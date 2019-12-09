@@ -3,7 +3,6 @@ import money from "../../../Assets/money.svg";
 import free from "../../../Assets/free.svg";
 import "./Content31.scss";
 // import ScrollAnimation from 'react-animate-on-scroll'
-import { Link } from "react-router-dom";
 
 const Content31 = () => {
   return (
@@ -20,7 +19,7 @@ const Content31 = () => {
                 <div className="card-text text-center">
                   <h3>Program Berbayar</h3>
                   <br />
-                  <a href="http://localhost:3000/berbayar">
+                  <a href="https://supercampprogrammer.com/berbayar">
                     <button className="btn btn-success">
                       Lihat Selengkapnya
                     </button>
@@ -36,7 +35,7 @@ const Content31 = () => {
                 <div className="card-text text-center">
                   <h3>Program Bebas Biaya</h3>
                   <br />
-                  <a href="http://localhost:3000/bebas_biaya">
+                  <a href="https://supercampprogrammer.com/bebas_biaya">
                     <button className="btn btn-success">
                       Lihat Selengkapnya
                     </button>

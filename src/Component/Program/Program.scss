@@ -18,6 +18,13 @@ $font: "Montserrat", sans-serif;
   img {
     width: 300px;
     height: 300px;
+    transition: all ease 0.4s;
+
+    &:hover {
+      transform: translateY(5px);
+      width: 305px;
+      transition: 0.5s;
+    }
   }
 
   .card-body {
