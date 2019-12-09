@@ -5,17 +5,24 @@ import Data from './Data.json'
 import TableProgram from '../isiProgram/Table/TableProgram'
 import AlurPendaftaran from './Alur Pendaftaran/AlurPendaftaran'
 import Copyright from '../Copyright/Copyright'
+import { Link } from 'react-router-dom'
 
 const IsiProgram = () => {
     return (
         <>
         <div className='box '>
             <Navbar />
-            <i className='fa fa-arrow-left left-arrow' data-toggle="tooltip" data-placement="right" title="Back" />
+            <Link to="berbayar">
+            <i
+            className='fa fa-arrow-left left-arrow'
+            data-toggle='tooltip'
+            data-placement='right'
+            title='Back'
+            />
+            </Link>
             <div className='container isi-program '>
             <div className='row row-isiprogram '>
                 <div className='col-md-12 mt-5'>
-               
                 <h1>Membuat Website Responsive</h1>
                 </div>
                 <div className='col-md-12 isi-program-img mt-5'>
@@ -106,13 +113,15 @@ const IsiProgram = () => {
                 >
                     <h5>Rp 200.000,00</h5>
                 </div>
-                <button
+                <Link to='/pendaftaran'>
+                    <button
                     style={{ background: '#1C3864' }}
                     className='btn mt-5 btn-bg-isi'
-                >
+                    >
                     {' '}
                     <i className='fa fa-edit' /> Daftar Sekarang
-                </button>
+                    </button>
+                </Link>
                 </div>
             </div>
             </div>

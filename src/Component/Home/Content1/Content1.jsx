@@ -7,7 +7,7 @@ const Content1 = () => {
     <>
       <div className="box-our">
         <ScrollAnimation animateIn="fadeInDown">
-          <p className="text-center title-desc">Visi Supercamp Programmer</p>
+          <p className="text-center title-desc mb-5">Visi Supercamp Programmer</p>
         </ScrollAnimation>
         <div className="row box-content1">
           <div className="col-md-12 box-title-content1">
